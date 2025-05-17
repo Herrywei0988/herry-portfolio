@@ -1,13 +1,64 @@
 <!doctype html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <title>Responsive Personal Portfolio Website Design | Codehal</title>
+  
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  
+    <!-- custom css -->
+    <link rel="stylesheet" href="src/index.css">
   </head>
+
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+
+    <!-- header design-->
+    <header class = "header">
+      <a herf = "#" class="logo">Portfolio</a>
+
+      <i class = 'bx bx-menu' id = "menu-icon"></i>
+
+      <nav class="navbar">
+
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+   <!-- home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+          <h3>Hello, It's Me</h3>
+          <h1> Herry Wei</h1>
+          <h3> And I'm a <span>Data Analyst</span></h3>
+          <p>I'm a passionate Data Analyst with a background in business and technology. 
+          I enjoy turning raw data into actionable insights and building clean, interactive dashboards to tell meaningful stories.</p>
+          <div class = "social-media">
+            <a href="#"><i class='bx bxl-facebook' ></i></a>
+            <a href="#"><i class='bx bxl-instagram' ></i></a>
+            <a href="#"><i class='bx bxl-linkedin' ></i></a>
+          </div>
+          <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+           <img src="src/images/home.png" alt="">
+
+        </div>
+
+    </section>
+
+
+   <!-- custom js-->
+  <script src ="src/js/script.js"></script>
+</body>
+
 </html>
