@@ -27,7 +27,7 @@
 
         <a href="#home" class="active">Home</a>
         <a href="#about">About</a>
-        <a href="#services">Services</a>
+        <a href="#what-i-do">What I Do</a>
         <a href="#portfolio">Portfolio</a>
         <a href="#contact">Contact</a>
       </nav>
@@ -38,7 +38,7 @@
         <div class="home-content">
           <h3>Hello, It's Me</h3>
           <h1> Herry Wei</h1>
-          <h3> And I'm a <span>Data Analyst</span></h3>
+          <h3> And I'm a <span class="multiple-text"></span></h3>
           <p>I'm a passionate Data Analyst with a background in business and technology. 
           I enjoy turning raw data into actionable insights and building clean, interactive dashboards to tell meaningful stories.</p>
           <div class = "social-media">
@@ -74,9 +74,9 @@
     </div>
    </section>
 
-   <!-- services section design -->
-   <section class="services" id="services">
-    <h2 class="heading"> Our <span> Services</span></h2>
+   <!-- what I do section design -->
+   <section class="what-i-do" id="what-i-do">
+    <h2 class="heading"> Skills & <span> Expertise</span></h2>
 
     <div class="services-container">
       <div class="services-box">
@@ -150,16 +150,52 @@
             <h4> CPI & Inflation Analysis</h4>
             <p>Analyzed historical CPI and inflation data to identify economic trends 
               and evaluate consumer spending power over time.</p>
-              <a href="#"><i class='bx bx-link-external'></i></a>
+              <a href="https://herrywei.georgetown.domains/cpi&inflation/_site"><i class='bx bx-link-external'></i></a>
           </div>
         </div>
-
-
       </div>
     </section>
 
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
 
+      <form action="https://formsubmit.co/herrywei0988@gmail.com" method="POST">
+        <!-- Optional: prevent spam -->
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
 
+        <div class="input-box">
+          <input type="text" name="name" placeholder="Full Name" required>
+          <input type="email" name="email" placeholder="Email Address" required>
+        </div>
+        <div class="input-box">
+          <input type="tel" name="mobile" placeholder="Mobile Number" required>
+          <input type="text" name="subject" placeholder="Email Subject" required>
+        </div>
+        <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+        
+        <input type="submit" value="Send Message" class="btn">
+      </form>
+    </section>
+ 
+
+    <!-- footer design -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p> Copyright &copy; 2025 by Herry | All Rights Reserved.</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+      </div>
+    </footer>
+    
+   <!-- scroll reveal -->
+   <script src="https://unpkg.com/scrollreveal"></script>
+
+   <!-- typed js -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
    <!-- custom js-->
   <script src ="src/js/script.js"></script>
